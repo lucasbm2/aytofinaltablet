@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Escudo_de_Las_Pedro%C3%B1eras.svg/550px-Escudo_de_Las_Pedro%C3%B1eras.svg.png"
+        type="image/x-icon">
+    <title>Ayto Las Pedroñeras</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        nav {
+            background-color: gray;
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            padding: 15px;
+        }
+
+        nav a:hover {
+            color: yellow;
+            font-weight: bold;
+            text-shadow: 3px 3px 3px black;
+        }
+
+        header {
+            background-image: url(https://www.laspedroneras.es/images/slider/2022/portada22/plaza3-min.jpg);
+            background-size: cover;
+            background-position: center center;
+            height: 150px;
+            display: flex;
+            justify-content: left;
+            align-items: left;
+        }
+
+        #titulo {
+            color: black; text-align: center;
+        }
+
+        #contenedor-lugares {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 5px;
+        }
+
+        #contenedor-lugares img {
+            width: 100%;
+
+        }
+
+        #contenedor-lugares article {
+            width: 30%;
+            box-shadow: 3px 3px 3px black;
+            text-align: center;
+            padding: 20px;
+            background-color: grey;
+            margin-top: 20px;
+            border-radius: 2px;
+        }
+
+        #contenedor-servicios {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 5px;
+        }
+
+        #contenedor-servicios img {
+            width: 100%;
+            height: 200px;
+
+        }
+
+        #contenedor-servicios article {
+            width: 30%;
+            box-shadow: 3px 3px 3px black;
+            text-align: center;
+            padding: 20px;
+            background-color: grey;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        section#contenedor-general {
+            background-color: lightcyan;
+        }
+
+        #titulo {
+            text-align: center;
+        }
+
+        #mapa {
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: lightsalmon;
+            color: white;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #contacte {
+            width: 100%;
+            border-bottom: 2px solid white;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        #enlaces {
+            width: 33%;
+        }
+
+        #e-mail {
+            width: 33%;
+        }
+
+        #estamos-en {
+            width: 33%;
+        }
+
+        @media (min-width: 601px) and (max-width: 800px) {
+    nav {
+        flex-wrap: wrap;
+        position: static;
+    }
+
+    nav a {
+        width: 100%;
+        text-align: center;
+    }
+
+    #contenedor-servicios {
+        flex-wrap: wrap;
+    }
+
+    #contenedor-lugares article,
+    #contenedor-servicios article {
+        width: 100%;
+    }
+
+    #contenedor-lugares img,
+    #contenedor-servicios article img {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    #contacte, #enlaces, #estamos-en, #e-mail {
+        flex-wrap: wrap;
+        width: auto;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#contenedor-lugares">Noticias</a>
+        <a href="#donde-estamos">Ubicacion</a>
+        <a href="#contenedor-servicios">Servicios</a>
+        <a href="#contacte">Contacto</a>
+    </nav>
+    <header>
+
+    </header>
+    <section id="contenedor-general">
+        <h1 id="titulo">Noticias Actuales</h1>
+        <div id="contenedor-lugares">
+            <article>
+                <img src="https://www.laspedroneras.es/cache/mod_roksprocket/dca2ea49bb007ffcf2506dad4b6bf25c_0_0.jpg"
+                    alt="">
+                <p>FIDA 2023 - Programa de actos </p>
+
+            </article>
+            <article>
+                <img src="https://www.laspedroneras.es/cache/mod_roksprocket/5927cd0f7e75082206e497b8220498b0_0_0.jpg"
+                    alt="">
+                <p>Matricula EMI / Curso 2023-24 HORARIOS </p>
+            </article>
+
+            <article>
+                <img src="https://www.laspedroneras.es/cache/mod_roksprocket/32891e2322e320680bc44f07f95f8e5f_0_0.jpg"
+                    alt="">
+                <p>Programa de Actos SEMANA SANTA 2023 </p>
+            </article>
+
+            <article>
+                <img src="https://www.laspedroneras.es/cache/mod_roksprocket/1ba821db131b15491c93a9a05486580c_0_0.jpg"
+                    alt="">
+                <p>Clases de SPEAKING en inglés </p>
+            </article>
+
+            <article>
+                <img src="https://www.laspedroneras.es/cache/mod_roksprocket/b4ab2fa6312ebc7b2899b2030aae5f75_0_0.jpg"
+                    alt="">
+                <p>Programa de Actos NAVIDAD 2022 - 2023 </p>
+            </article>
+
+            <article>
+                <img src="https://www.laspedroneras.es/cache/mod_roksprocket/72171e11656f8fe699ffadb291f4de06_0_0.jpg"
+                    alt="">
+                <p>Universidad Popular 2022 - 2023 </p>
+            </article>
+        </div>
+        <div id="donde-estamos">
+            <h2 id="titulo">¿Donde estamos?</h2>
+            <p><iframe id="mapa"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3080.789982667576!2d-2.6756061000000004!3d39.4514786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd68658b945cca5d%3A0xd713f471d49acca6!2sAyuntamiento%20de%20Las%20Pedro%C3%B1eras.!5e0!3m2!1ses!2ses!4v1702976027551!5m2!1ses!2ses"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+        </div>
+        <h1 id="titulo">Nuestros Servicios</h1>
+        <div id="contenedor-servicios">
+
+            <article>
+                <a href="https://www.laspedroneras.es/index.php?option=com_k2&view=itemlist&layout=category&task=category&id=15&Itemid=418"
+                    target="_blank"><img
+                        src="https://static.nationalgeographic.es/files/styles/image_3200/public/001-library-biblioteca-real-gabinete-de-leitura-rio-de-janeiro-brasile_0016.jpg?w=1900&h=1425"
+                        alt=""></a>
+                <p>Biblioteca Municipal</p>
+            </article>
+            <article>
+                <a href="https://www.laspedroneras.es/index.php?option=com_k2&view=itemlist&layout=category&task=category&id=24&Itemid=967"
+                    target="_blank"><img src="https://www.cuencanews.es/fotos/1/MuseoAjo_2_.jpg" alt=""></a>
+                <p>Museo Etnográfico y del Ajo</p>
+            </article>
+            <article>
+                <a href="https://twitter.com/CDPedroneras" target="_blank"><img
+                        src="https://www.cuencanews.es/fotos/1/images/stories/enero12/cdpedorneras.jpg " alt=""></a>
+                <p>CD Las Pedroñeras</p>
+            </article>
+            <article>
+                <a href="https://laspedroneras.sedelectronica.es/info.0" target="_blank"><img
+                        src="https://zafra.es/wp-content/uploads/2018/05/iconosedeelectronicaportada.png  " alt=""></a>
+                <p>Carnet de Socio y Abonos 23/24</p>
+            </article>
+            <article>
+                <a href="https://sanidad.castillalamancha.es/ciudadanos/centros/las-pedroneras#zoom=15&lat=39.4544&lon=-2.67673&layers=BT"
+                    target="_blank"><img
+                        src="https://cloudfront-eu-central-1.images.arcpublishing.com/prisaradio/GGWLMPXP55KY5CSUA7QMVAXXVE.jpg"
+                        alt=""></a>
+                <p>Centro de Salud</p>
+            </article>
+            <article>
+                <a href="https://www.bandomovil.com/laspedroneras/816749" target="_blank"><img
+                        src="https://www.bandomovil.com/userFiles/Os/OsuzVESCUELADEPORTES22-23.jpg" alt=""></a>
+                <p>Escuelas Deportivas</p>
+            </article>
+        </div>
+        <h1 id="titulo" id="opiniones">Valoraciones</h1>
+        <div id="contenedor-servicios">
+            <article>
+                <img src="data:image/jpeg;base64,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"
+                    alt="">
+                <p>Jose Manue Tortosa Ruiz: Un lugar para vivir </p>
+            </article>
+            <article>
+                <img src="https://static.hoy.es/www/multimedia/201907/30/media/cortadas/fotoajos-k0jF-U80878191639H0F-624x385@Hoy.jpg"
+                    alt="">
+                <p>Guardia Civil: Sin problema</p>
+            </article>
+            <article>
+                <img src="https://www.lavanguardia.com/files/article_main_microformat/uploads/2016/06/30/5e997c505cf33.jpeg"
+                    alt="">
+                <p>Manolo de la Osa: La mejor cocina del mundo</p>
+            </article>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div id="contacte">
+            Contacte con nosotros
+        </div>
+
+        <div id="enlaces">
+            <h2>Enlaces</h2>
+            <p><a href="https://www.facebook.com/ayuntamiento.laspedroneras/?locale=es_ES" target="_blank">Facebook</a>
+            </p>
+            <p><a href="https://twitter.com/apedroneras?lang=es" target="_blank">Twitter</a></p>
+            <p><a href="https://www.instagram.com/" target="_blank">Instagram</a></p>
+            <p><a href="https://www.youtube.com/channel/UCFP8VkSeFqaeuCQKUlLZTsQ" target="_blank">YouTube</a></p>
+        </div>
+
+        <div id="estamos-en">
+            <h2>Ayuntamiento Las Pedroñeras</h2>
+            <p>Plaza de la Constitución,1</p>
+            <p>16660 Las Pedroñeras</p>
+        </div>
+
+        <div id="e-mail">
+            <h2>E-mail Oficial</h2>
+            <p>info@laspedroneras.com</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
